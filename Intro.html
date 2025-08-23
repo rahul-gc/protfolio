@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 20px;
+      line-height: 1.6;
+      background-color: #f4f4f4;
+    }
+
+    .section-header {
+      background: linear-gradient(135deg, #114f55, #3db5c4);
+      color: white;
+      text-align: center;
+      padding: 15px;
+      border-radius: 8px;
+      margin: 30px auto 20px;
+      max-width: 800px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .about-box {
+      background: #ffffff;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      margin: auto;
+      margin-bottom: 30px;
+      max-width: 800px;
+    }
+
+    p {
+      font-size: 18px;
+      color: #333;
+      margin-bottom: 15px;
+      text-align: justify;
+    }
+
+    ul {
+      list-style-type: square;
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 10px;
+      font-size: 17px;
+      color: #444;
+      transition: 0.3s ease;
+    }
+
+    li:hover {
+      color: #114f55;
+      transform: translateX(8px);
+    }
+
+    .image-container {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .image-container img {
+      border-radius: 12px;
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+      max-width: 100%;
+      height: auto;
+      transition: transform 0.4s ease;
+    }
+
+    .image-container img:hover {
+      transform: scale(1.05);
+    }
+
+    @media (max-width: 600px) {
+      body {
+        padding: 15px;
+      }
+
+      .section-header,
+      .about-box {
+        padding: 20px;
+      }
+
+      p {
+        font-size: 16px;
+      }
+
+      li {
+        font-size: 15px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- About Me Section -->
+  <div class="section-header">
+    <h1>About Me</h1>
+  </div>
+  <div class="about-box">
+    <p>
+      Hello! My name is <strong>Rahul GC</strong>.<br>
+      I am a <strong>BIM Student</strong> with a passion for developing websites.<br>
+      My permanent address is <strong>Baglung, Resha Kathekhola, Ward No. 7</strong>.<br>
+      I am currently learning web development and I am excited to grow my skills in this field.
+    </p>
+
+    <!-- Image now placed at the end -->
+    <div class="image-container">
+      <img src="IMG_9545.JPG" alt="My Image" width="270" height="280">
+    </div>
+  </div>
+
+  <!-- Hobbies Section -->
+  <div class="section-header">
+    <h1>My Hobbies</h1>
+  </div>
+  <div class="about-box">
+    <ul>
+      <li>Playing chess</li>
+      <li>Playing cricket</li>
+      <li>Playing guitar</li>
+      <li>Reading books</li>
+    </ul>
+  </div>
+
+</body>
+</html>
